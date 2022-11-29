@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register-form-container {
+  width: 400px;
+  /* border: 1px solid red; */
+  padding: 40px 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  border-radius: 10px;
+}
+.register-head {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.register-icon {
+  color: #6c5ce7;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.register-head h1 {
+  font-size: 35px;
+}
+.register-body {
+  margin-bottom: 20px;
+}
+.register-body .form-control {
+  margin-bottom: 30px;
+  position: relative;
+}
+.form-control label {
+  display: block;
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
+.form-control input {
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 0 10px 10px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #000;
+  transition: all 0.5s;
+}
+.form-control input:focus {
+  border-bottom: 2px solid #6c5ce7;
+  background-color: rgba(0,0,0,0.1);
+}
+.form-control .fa-solid {
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+  font-size: 20px;
+  opacity: 0.6;
+}
+.register-foot {
+  margin-top: 40px;
+}
+.register-foot button {
+  width: 120px;
+  height: 40px;
+  background-color: #6c5ce7;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  border-radius: 5px;
+}

@@ -1,0 +1,253 @@
+/*___________chi tiết sp_____________*/ 
+.trangctsp{
+    width: 80%;
+    padding: 0% 10%;
+    background: #fafafa;
+    display: flex;
+}
+.anhsp{
+ 
+    background: #ffffff;
+    width: 40%;
+}
+.ctsp{
+    padding: 2% 7%; 
+    background: #fff;
+    width: 56%;
+}
+.ct1{
+    width: 80%;
+    padding: 0% 10%;
+    height: 350px;
+    padding-bottom: 2%;
+}
+.ctsp1{
+    display: flex;
+    width: 100%;
+}
+.ct2{
+    width: 23%;
+    margin: 0% 1%;
+    height: 100px;
+}
+.tenspct{
+    width: 100%;
+ -webkit-line-clamp: 2 ;
+ height: 60px;
+   
+    padding-top: 2%;
+    padding-bottom: 1%;
+   line-height: 1.5;
+font-size: 20px;
+}
+ .danhgiact1{
+    color: #535554;
+    width: 100%;
+    display: flex;
+   }
+.saoct{ 
+    padding-right: 2%;
+    font-size: 15px;
+}
+.sodanhgiact{
+  
+    font-size: 15x;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-left: 2px solid #c2c2c2;
+}
+.soluotban{
+    font-size: 15px;
+    padding-left: 2%;
+    border-left: 2px solid #c2c2c2;
+}
+.giatienct{
+ 
+    width: 90%;
+    display: flex;
+   padding: 3% 5%;
+    margin: 2% 0%;
+    background: #f5f5f5;
+}
+.giagocct{
+    font-size: 18px;
+    color: #757575;
+    text-decoration: line-through;
+    
+}
+.giabanct{
+    font-size: 22px;
+    color: #d41830;
+    padding-left: 2%;
+}
+.baohiemct{
+    padding-top: 3%;
+    display: flex;
+    width: 100%;
+        font-size: 17px;
+}
+.baohien1{
+width: 15%;
+color: #757575;
+
+}
+.baohiem2{
+    width: 75%;
+    padding-left: 10%;
+    color: #000;
+}
+.soluongct{
+    padding-top: 5%;
+    display: flex;
+    width: 100%;
+        font-size: 17px;
+}
+.soluongct1{
+    width: 15%;
+    color: #757575;
+}
+.soluongct2{
+        width: 75%;
+        padding-left: 10%;
+}
+.trusl{
+    background: #fafafa;
+    width: 7%;
+    color: #757575;
+    height: 25px;
+    border: 0px ;
+    font-size: 15px;
+    border: 1px solid #c2c2c2;
+}
+.sosl{
+    background: #fafafa;
+    width: 9%;
+    color: #000;
+    height: 25px;
+    border: 0px ;
+    font-size: 15px;
+    border: 1px solid #c2c2c2;
+}
+.muact{
+    padding-top: 7%;
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 2%;
+   
+}
+.muact1{
+padding: 2% 7%; 
+border: 1px solid #d41830;
+background: rgba(208,1,27,.08);
+color: #d41830;
+}
+.muact2{
+    margin-left: 2%;
+    padding: 2% 5%;  
+    border: 1px solid #d41830;
+background: #d41830;
+color: #fff; 
+}
+
+.chinhsachct{
+    border-top: 1px solid #c2c2c2;
+    padding-top: 2%;
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 7%;
+}
+.chinhsachct1{
+    width: 33%;
+    padding-right: 3%;
+    color: #4a4a4a;
+}
+.iconct{
+    color: #d41830;
+}
+.motaspct{
+    width: 80%;
+    padding: 0% 10%;
+    background: #fafafa;
+    
+   
+}
+ 
+.mtct{
+   font-weight: 600;
+    width: 90%;
+    background: #f5f5f5;
+    padding: 2% 5%;
+}
+.mtct1{
+ 
+    width: 90%;
+    background: #fff;
+    padding: 3% 5%;
+}
+.mtct2{
+    width: 100%;
+    text-align: justify;
+    padding-top: 1%;
+    line-height: 1.8;
+}
+.binhluansp{
+    width: 80%;
+    padding: 0% 10%;
+    background: #fafafa;
+ 
+     
+   
+}
+.blct{
+    width: 90%;
+    padding: 3% 5%;
+}
+.blct1{
+    width: 90%;
+    display: flex;
+    background: #fff;
+    padding: 2% 5%;
+    border-bottom: 1px solid #c2c2c2    ; 
+    
+}
+.bltct2{
+    width: 10%;
+    height: auto;
+    text-align: center;
+}
+.bltct3{
+    width: 90%;
+}
+.anhblct{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.saoblct{
+    font-size: 12px;
+    padding: 1% 0% ;
+}
+.tgbl{
+    font-size: 16px;
+    padding: 1% 0%;
+    color: #757575;
+}
+.ndbl{
+    font-size: 18px;
+    padding: 2% 0%;
+}
+.anhbl{
+    display: flex;
+    width: 100%;
+
+}
+.anhbl4{
+    width: 10%;
+    padding: 2% 1%;
+}
+/* cart của trường */
+.span-plus_spct{
+    border-radius: 50%;
+}

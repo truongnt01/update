@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-container {
+  width: 400px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  padding: 40px 20px;
+  box-shadow: 0 0px 10px rgba(0,0,0,0.4);
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.login-head {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.login-head .login-icon {
+  color: #6c5ce7;
+  font-size: 30px;
+}
+.login-head h1 {
+  font-size: 35px;
+  margin: 10px 0;
+}
+.login-head span {
+  font-size: 25px;
+  opacity: 0.6;
+}
+.login-body .form-control {
+  position: relative;
+  margin-bottom: 30px;
+}
+.form-control label {
+  display: block;
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
+.form-control input {
+  padding-left: 10px;
+  font-size: 18px;
+  width: 100%;
+  padding: 10px 0;
+  border:  none;
+  outline: none;
+  border-bottom: 2px solid #000;
+  transition: all 0.5s;
+}
+.form-control input:focus {
+  border-bottom: 2px solid #6c5ce7;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.form-control .fa-solid {
+  position: absolute;
+  opacity: 0.5;
+  font-size: 20px;
+  right: 10px;
+  bottom: 8px;
+}
+
+.login-foot .forgot a {
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  color: #6c5ce7;
+}
+.forgot a:hover {
+  text-decoration: underline;
+}
+
+.login-foot button {
+  background-color: #6c5ce7;
+  border: none;
+  outline: none;
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.login-foot .back-index a {
+  color: #6c5ce7;
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  text-align: left;
+}
+.login-foot .back-index a:hover {
+  text-decoration: underline;
+}
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin</title>
+  <link rel="stylesheet" href="admin.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="sidebar-brand">
+      <h2>Admin Page</h2>
+    </div>
+    <div class="sidebar-menu">
+      <ul>
+        <li>
+          <a href="" class="active"><i class="fa-brands fa-codepen"></i>Sản Phẩm </a>
+        </li>
+        <li>
+          <a href=""><i class="fa-solid fa-sitemap"></i>Loại</a>
+        </li>
+        <li>
+          <a href=""><i class="fa-solid fa-clipboard"></i>Bình Luận</a>
+        </li>
+
+        <li>
+          <a href=""><i class="fa-solid fa-users"></i>Khách Hàng</a>
+        </li>
+        <li>
+          <a href=""><i class="fa-solid fa-house"></i>Vào Website</a>
+        </li>
+        <li>
+          <a href=""><i class="fa-solid fa-list-check"></i>Tasks</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+  <div class="main-content">
+    <header>
+      <h2>
+        <label for="">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        Dashboad
+      </h2>
+      <div class="search-wrapper">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="search" placeholder="Search here..">
+      </div>
+
+      <div class="user-wrapper">
+        <img src="/admin/public/images/admin2.jpg" alt="" width="50" height="50">
+        <div>
+          <h4>Dat Nguyen</h4>
+          <small>Super Admin</small>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="cards">
+        <div class="card-single">
+          <div>
+            <h1>54</h1>
+            <span><i class="fa-solid fa-users"></i>Customer</span>
+          </div>
+        </div>
+
+        <div class="card-single">
+          <div>
+            <h1>79</h1>
+            <span><i class="fa-solid fa-diagram-project"></i>Projects</span>
+          </div>
+        </div>
+
+        <div class="card-single">
+          <div>
+            <h1>124</h1>
+            <span><i class="fa-brands fa-product-hunt"></i>Product</span>
+          </div>
+        </div>
+
+        <div class="card-single">
+          <div>
+            <h1>$6k</h1>
+            <span><i class="fa-solid fa-users"></i>Income</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="noidung">
+        <table border="1">
+          <tr>
+            <th>Chọn</th>
+            <th>Mã hàng hóa </th>
+            <th>Tên hàng hóa</th>
+            <th>Đơn giá</th>
+            <th>Giảm giá</th>
+            <th>Ảnh hh</th>
+            <th>id loại</th>
+            <th>Đặc Biệt</th>
+            <th>đã bán</th>
+            <th>Ngày nhập</th>
+            <th>Mô tả </th>
+            <th>Chỉnh sửa</th>
+
+          </tr>
+
+          <tr>
+            <td> <input type="checkbox"></td>
+            <td>13</td>
+            <td>Giá đỡ Laptop , Giá kê MacBook , Ultrabook chất liệu bằng nhôm điều chỉnh độ cao , chống mỏi cổ,
+              dễ gấp gọn</td>
+            <td>27000000 </td>
+            <td>580000 </td>
+            <td><img src="duan/image/sp12.png" alt="" width="200px"></td>
+
+            <td>10</td>
+            <td>1</td>
+            <td>19</td>
+
+            <td>2022-10-11</td>
+            <td> * Do ánh sáng khi chụp nên sản phẩm thực tế sẽ có đôi chút khác màu so với ảnh mình chụp , mong
+              các bạn thông cảm ( sản phẩm thực tế màu sẽ sáng hơn nhiều *Vì là phân khúc giá rẻ nên lúc gia
+              công cơ khí sẽ không tránh khỏi sai số khi khoan lỗ chốt dẫn đến tình trạng sẽ có các chốt chặn,
+              khớp nối bị lỏng, đôi khi gia công bị trầy xước nhưng shop cam kết hoàn toàn không ảnh hưởng đến
+              trải nghiệm khi kê máy lên sử dụng - CAM KẾT KHÔNG BỊ BẬP BÊNH, RUNG LẮC KHI SỬ DỤNG. - SẢN PHẨM
+              ĐI KÈM TÚI ĐỰNG NHƯNG CHẤT LIỆU TÚI VÀ MÀU SẮC SẼ TÙY ĐỢT HÀNG NHÉ.</td>
+            <td>
+              <a href="">Sửa</a>
+              <a href="">xóa</a>
+            </td>
+          </tr>
+
+
+        </table>
+        <a href=" "> <button type="submit">Thêm sp </button></a>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>

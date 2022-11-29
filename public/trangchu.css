@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+     font-family: serif;
+}
+/*_________________________*/
+body{
+    width: 100%;
+}
+header {
+    width: 100%;
+    margin: auto;
+}
+
+.top {
+    width: 90%;
+    padding: 0% 5%;
+    display: flex;
+    height: 100px;
+    background: #fafafa;
+    margin: 0;
+
+}
+
+.logo {
+    width: 20%;
+    text-align: center;
+
+}
+
+.logo1 {
+    width: 50%;
+
+
+}
+
+.timkiem {
+    line-height: 100px;
+    width: 60%;
+    text-align: center;
+}
+
+.search {
+
+    padding: 10px 280px 10px 20px;
+    border-radius: 10px;
+}
+
+.nuttk {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: #535554;
+    color: #fff;
+}
+
+.login {
+    width: 20%;
+}
+
+.giohang {
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    color: #d41830;
+}
+.giohang a{
+    color: #000;
+    
+   
+}
+.dangki1 {
+    text-align: center;
+    width: 40%;
+    float: left;
+    color: #d41830;
+    padding: 0 5%;
+}
+.dangki1 a{
+    color: #000;
+}
+/*_________________________*/
+/* css menu */
+a {
+    text-decoration: none;
+}
+
+.menu {
+    border-top: 1px solid #535554;
+    border-bottom: 1px solid #535554;
+    width: 90%;
+    background: #fafafa;
+    height: 50px;
+    padding: 0 5%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu ul li {
+
+    padding: 0px 50px;
+    list-style: none;
+    line-height: 50px;
+}
+
+.menu ul li a {
+    color: #000;
+    padding: 0px 30px;
+    font-size: 18px;
+   
+}
+
+.menu li a:hover {
+
+    border-bottom: 2px solid #000;
+}
+
+/* css banner*/
+nav {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+}
+/*_________________________*/
+/* css main */
+main {
+    display: flex;
+    width: 80%;
+    padding: 0% 10%;
+    background: #fafafa;
+    ;
+}
+
+.danhmuc {
+ background: #fff;
+    width: 20%;
+    padding: 20px 40px;
+
+}
+
+.conntenr {
+    width: 80%;
+}
+
+.spcon a {
+    padding: 0px 10px;
+    line-height: 2.5;
+    display: block;
+    width: 100%;
+    color: black;
+    transition: all 0.1s;
+}
+.spcon a:hover{
+    color: #d41830;
+    transform: scale(1.05);
+  
+}
+.spto {
+    padding: 20px 10px;
+
+}
+
+.danhmuc1 {
+    padding-top: 20px;
+}
+/*_________________________*/
+/* sản phẩm */
+
+.sanpham {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 0px;
+}
+.tieude{
+   font-size: 25px;
+   font-weight: 600; 
+   padding: 20px 10px;
+   border-bottom: 2px solid #c2c2c2;
+}
+.sanphamct {
+    background: #fff;
+    width: 22.5%;
+  
+    margin: 1% 1%;
+}
+.sanphamct:hover {
+    transform: scale(1.03);
+}
+.anhsanpham {
+    width: 100%;
+    height: 204px;
+}
+
+.tensp {
+    display: -webkit-box;
+     /*chia dòng */
+     -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    object-fit: contain;
+    height: 38px;
+    overflow: hidden;
+    padding: 0px 10px;
+    margin: 10px 0px;
+    
+}
+.tensp a{
+    color: #000;
+}
+.giatien {
+    padding: 10px 10px;
+    color: #d41830;
+    font-size:19px ;
+ 
+}
+.luotxem{
+    font-size: 15px;
+    padding: 5px 10px;
+}
+.chitietsp{
+    padding: 10px 10px;
+  
+}
+.chitietsp a{
+    color: #000;
+}
+.chitietsp a:hover{
+ border-bottom: 2px solid #000;
+}
+.fa-star{
+    color: gold;
+    font-size: 9px;
+}
+/*  */
+/*danh gia */
+section{
+    width: 80%;
+    padding: 0% 10%;
+    background: #fafafa;
+}
+.danhgia {
+    width: 100%;
+  display: flex;
+    background: #ffffff;
+    padding-bottom: 50px;
+ 
+}
+.danhgiact {
+    width: 30%;
+    margin: 0% 1.5%;
+    
+}
+.danhgiakh {
+    font-size: 25px;
+    padding: 70px 0px;
+}
+.anhkh{
+    width: 100px;
+    border-radius:150px;
+}
+.sao {
+    padding: 1% 0% 0% 0%;
+    color: gold;
+}
+.tenkh {
+    font-size: 20px;
+    color: #00204a;
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+.dgkh {
+  
+     /*chia dòng */
+     -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    object-fit: contain;
+    height: 140px;
+    overflow: hidden;
+    text-align: justify;
+    padding-right: 20px;
+    line-height:1.5;
+  
+    color: #000;
+}
+.vaitro {
+    color: #888;
+}
+.tknha{
+    width: 100%;
+padding: 30px 0px;
+    text-align: center;
+}
+.tknhacon{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.tkct {
+    padding: 5% 0%;
+    width: 100%;
+    background: #f8f9fa;
+    display: flex;
+}
+.taisan {
+    width: 40%;
+}
+.taisan1 {
+    width: 100%;
+    height: 150px;
+}
+.anhtaisan { 
+    width: 60%;
+}
+.anhts1 {
+    width: 600px;
+    height: 400px;
+    padding: 0px 50px; 
+}
+.tkicon {
+    text-align: center;
+    width: 50px;
+    height: 60px;
+    font-size: 25px;
+    border: 1px solid #efefef;
+    border-radius: 100%;
+    padding: 5% 5%;
+    background: #efefef;
+    float: left;
+    padding-bottom: 3px;
+    color: #00204a;
+}
+
+.tkicon:hover {
+    background: #ffffff;
+    border: 2px solid #00204a;
+}
+
+.tknd1 {
+     
+    float: left;
+    font-size: 18px;
+    font-weight: 700;
+    color: #00204a;
+    padding: 3% 4%;
+}
+
+.tknd2 {
+    -webkit-line-clamp: 2;
+    width: 70%;
+    float: left;
+    color: #888;
+    padding: 0% 4%;
+    line-height: 1.5;
+}
+
+/*footer */
+footer {
+    display: flex;
+    width: 80%;
+    padding: 0% 10%;
+    height: 400px;
+    background: #efefef;
+}
+.nguon {
+    float: left;
+    width: 28%;
+    padding-left: 4%;
+}
+h3 {
+    padding: 20% 0% 0%;
+    padding-bottom: 8%;
+    color: #00204a
+}
+.dcfpt a {
+    font-size: 15px;
+    color: #888;
+    line-height: 2.5;
+    text-decoration: underline;
+}
+.dcfpt a:hover {
+    color: #00204a;
+    text-decoration: none;
+}
+.dcct a {
+    text-decoration: none;
+    color: #888;
+    line-height: 2.5;
+    text-decoration: underline;
+}
+.dcct a:hover {
+    color: #00204a;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.nguon1 {
+    width: 50%;
+    float: left;
+}
+.nguon1 li a {
+    color: #888;
+    line-height: 2;
+    text-decoration: underline;
+}
+.nguon2 {
+    width: 50%;
+    float: left;
+}
+.nguon2 li a {
+    color: #888;
+    line-height: 2;
+    text-decoration: underline;
+}
+.nguon3 {
+    width: 100%;
+    float: left;
+}
+.nguon3 a {
+    float: left;
+    color: #888;
+    font-size: 25px;
+    padding: 5% 0%;
+    padding-right: 4%;
+}
+.nguon4 {
+
+    width: 28%;
+    padding-left: 10%
+}
+.nguon1 li a:hover {
+    color: #00204a;
+    text-decoration: none;
+}
+.nguon2 li a:hover {
+    color: #00204a;
+    text-decoration: none;
+}
+.nguon3 li a:hover {
+    color: #00204a;
+    text-decoration: none;
+    transform: scale(1.08);
+}
+
+/*sản phẩm  */
+.sapxep{
+    width: 100%;
+    display: flex;
+    margin: 20px 0px;
+}
+.sapxep1{
+    padding-top: 12px;
+ padding-left: 20px;
+ font-size: 15px;
+}
+.sapxepcon{
+    color: #000;
+    padding: 10px 20px;
+  
+    border: 1px solid #c2c2c2;
+    margin: 0px 10px;
+}
+.chuyentrang{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+margin: 10px 0px;
+}
+.back{
+    background: #fafafa;
+width: 4%;
+height: 30px;
+border: 0px ;
+font-size: 20px;
+color: #535554;
+}
+.next{
+    background: #fafafa;
+    width: 4%;
+height: 30px;
+border: 0px ;
+font-size: 20px;
+color: #535554;
+margin: 0px 2%;
+}

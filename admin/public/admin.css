@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+ 
+  --main-color: lightslategray;
+  --color-dark: #1d2231;
+  --text-gray: #8390a2;
+}
+
+.sidebar {
+  width: 250px;
+  position: fixed;
+  height: 100%;
+  background: var(--main-color);
+}
+
+.sidebar-brand {
+  height: 90px;
+  padding: 1rem 0 1rem 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.sidebar-menu li {
+  width: 100%;
+  /* margin-bottom: 1.3rem; */
+  padding-left: 2rem;
+}
+
+.sidebar-menu a {
+  display: block;
+  color: #fff;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-radius: 30px 0 0 30px;
+  transition: all 0.25s;
+}
+
+.sidebar-menu a i {
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+.sidebar-menu a.active {
+  background: #fff;
+  /* padding-bottom: 1rem;
+  padding-top: 1rem; */
+  color: var(--main-color);
+  border-radius: 30px 0 0 30px;
+}
+
+.sidebar-menu a:hover {
+  background: #fff;
+
+  color: var(--main-color);
+
+}
+
+.main-content {
+  margin-left: 260px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+}
+.log-out-btn a{
+  background-color: #006400;
+  display: block;
+  padding: 5px 10px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.search-wrapper {
+  border: 1px solid #000;
+  border-radius: 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.search-wrapper input {
+  width: 200px;
+  height: 100%;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  transition: all 0.5s;
+
+}
+
+.search-wrapper input:focus {
+  width: 400px;
+}
+
+.search-wrapper i {
+  display: inline-block;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+}
+
+.user-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.user-wrapper img {
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.user-wrapper small {
+  display: inline-block;
+  color: var(--text-gray);
+  margin-top: -3px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.cards .card-single {
+  padding: 2rem 3rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.card-single h1 {
+  margin-bottom: 1rem;
+}
+
+.card-single span i {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+
+/* css bảng */
+ 
+.noidung table {
+  border: 1px solid #1d2231;
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+.noidung table tr th {
+
+  background: cadetblue;
+  height: 40px;
+}
+
+.noidung table tr td {
+
+  text-align: justify;
+
+}
+
+button {
+  padding: 10px 30px;
+  margin: 40px 50px;
+  float: left;
+}
+table tr :nth-child(10) {
+  width: 400px;
+  
+}
+ 
+table tr td{
+ padding: 10px;
+ 
+ /* -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  height: 80px; */
+  
+}
+table tr th{
+  padding: 10px;
+  text-align: center;
+  /* -webkit-box-orient: vertical;
+   -webkit-line-clamp: 4;
+   height: 80px; */
+   
+ }
+ 
+ 
+table tr :nth-child(5) {
+  width: 150px;
+}
+
+table tr :nth-child(9) {
+  width: 120px;
+}
+
+table tr :nth-child(11) {
+  width: 50px;
+}
+
+/* add sp */
+/* add */
+form {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.addbang {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+
+}
+
+.box {
+  width: 33%;
+}
+
+.box1 {
+  width: 40%;
+}
+
+label {
+  margin: 0px 50px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+input {
+  width: 250px;
+  margin: 10px 50px;
+
+  padding: 10px 12px;
+   
+}
+
+button {
+  padding: 10px 20px;
+  margin: 40px 50px;
+  float: left;
+  background:cadetblue ;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+.sx{
+  float: left;
+  width: 50px;
+  border: 1px solid #1d2231;
+  background: cadetblue;
+  padding: 5px 10px;
+ margin-top: 10px;
+ color: #fff;
+ text-align: center;
+ margin-left: 10px;
+}
+ 

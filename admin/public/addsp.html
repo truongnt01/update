@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <link rel="stylesheet" href="admin.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2>Admin Page</h2>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="" class="active"><i class="fa-brands fa-codepen"></i>Sản Phẩm </a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-sitemap"></i>Loại</a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-clipboard"></i>Bình Luận</a>
+                </li>
+
+                <li>
+                    <a href=""><i class="fa-solid fa-users"></i>Khách Hàng</a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-house"></i>Vào Website</a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-list-check"></i>Tasks</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
+            </h2>
+            <div class="search-wrapper">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search here..">
+            </div>
+
+            <div class="user-wrapper">
+                <img src="/admin/public/images/admin2.jpg" alt="" width="50" height="50">
+                <div>
+                    <h4>Dat Nguyen</h4>
+                    <small>Super Admin</small>
+                </div>
+            </div>
+        </header>
+
+        <form action="" method="post" enctype="multipart/form-data">
+            <div class="addbang">
+                <div class="box"> <label for="">Mã hàng hóa </label> <br>
+                    <input type="text" name="id_hh" placeholder="Auto number">
+
+                </div>
+                <div class="box"> <label for="">Tên hàng hóa </label> <br>
+                    <input type="text" name="ten_hh">
+
+                </div>
+                <div class="box"> <label for="">Đơn giá </label> <br>
+                    <input type="text" name="don_gia">
+
+                </div>
+
+            </div>
+            <div class="addbang">
+                <div class="box"> <label for="">Giảm giá</label> <br> <input type="text" name="giam_gia">
+
+                </div>
+                <div class="box"> <label for="">Ảnh hàng hóa</label> <br> <input type="file" name="hinh"
+                        style="border:1px solid #000 ;">
+
+                </div>
+                <div class="box"> <label for="">Ngay nhập</label> <br> <input type="date" name="ngay_nhap">
+
+                </div>
+
+            </div>
+            <div class="addbang">
+                <div class="box"> <label for="">Đặc biệt</label> <br><input type="text" name="dac_biet"></div>
+
+                <div class="box"> <label for="">Đã Bán</label> <input type="text" name="da_ban">
+
+                </div>
+                <div class="box"><label for="">id loại </label> <br> <select name="id_loai" id=""
+                        style="border:1px solid #000 ; width: 250px; height: 45px; margin-left: 50px;">
+
+                    </select>
+                </div>
+            </div>
+            <div class="box" style="margin-top: 20px;"> <label for="">Mô tả hàng hóa</label> <br>
+                <textarea name="mo_ta" cols="100" rows="10"
+                    style="margin-left:50px; margin-top: 10px;padding: 10px;"></textarea>
+            </div>
+
+            <button type="submit" name="btnluu">Thêm mới </button>
+        </form>
+        <a href="showhanghoa.php"> <button type="submit"> danh sách sp </button> </a>
+
+</body>
+
+</html>
